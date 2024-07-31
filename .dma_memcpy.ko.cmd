@@ -1,0 +1,1 @@
+cmd_/root/rpcai/dma-test/benchmark/dma_memcpy.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /root/rpcai/dma-test/benchmark/dma_memcpy.ko /root/rpcai/dma-test/benchmark/dma_memcpy.o /root/rpcai/dma-test/benchmark/dma_memcpy.mod.o;  true
